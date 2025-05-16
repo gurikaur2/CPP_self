@@ -14,22 +14,12 @@ int main ()
     vec.emplace_back(1,2);
     cout<<vec[0].first<<endl; */
 
-    /* vector<int>::iterator it=v.begin();
+     vector<int>::iterator it=v.begin();
     for (int i = 0; i < v.size(); ++i)
     {
        cout<<v[i]<<endl;
        cout<<&v[i]<<endl;
-    } */
-    
-    //OR
-
-    //with iterator
-    for (auto it = v.begin(); it!=v.end(); it++)
-    {
-        cout<<*(it)<<endl;
-        cout<<&(*(it))<<endl;
     }
-    
 
 
     
